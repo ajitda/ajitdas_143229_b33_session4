@@ -1,5 +1,11 @@
 <?php
+
+include_once'class.php';
 define('batch33', 'This is Basis Institute of Trainging');
-echo batch33;
+$object = new Test_class();
+$object ->test();
+
 
 echo '<br>';
+
+echo __LINE__;
