@@ -1,7 +1,14 @@
 <?php
 
-$str = "<br> is a html tag";
-
+$str = "
+<html>
+<head></head>
+<body>
+<br> is a html tag
+</body>
+</html>
+";
+echo '<pre>';
 echo htmlentities($str);
-
+echo '</pre>';
 
